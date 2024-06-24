@@ -1,14 +1,6 @@
 {
   "canisters": {
-    "testowe_backend": {
-      "candid": "src/testowe_backend/testowe_backend.did",
-      "package": "testowe_backend",
-      "type": "rust"
-    },
     "testowe_frontend": {
-      "dependencies": [
-        "testowe_backend"
-      ],
       "source": [
         "src/testowe_frontend/dist"
       ],
